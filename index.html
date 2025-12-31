@@ -39,106 +39,138 @@
             font-size: 1.2rem;
             opacity: 0.9;
         }
-        
+
+        .instructions {
+            color: white;
+            font-size: 1rem;
+            margin-top: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+
         .legend {
             background: white;
             border-radius: 15px;
-            padding: 25px;
+            padding: 30px;
             margin-bottom: 30px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.2);
         }
-        
+
         .legend h2 {
             color: #333;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             font-size: 1.3rem;
         }
-        
+
         .legend-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 10px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        @media (max-width: 1024px) {
+            .legend-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .legend-grid {
+                grid-template-columns: 1fr;
+            }
         }
         
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 10px;
-            padding: 8px 12px;
+            gap: 12px;
+            padding: 12px 16px;
             background: #f8f9fa;
             border-radius: 8px;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
-        
+
         .legend-item span:first-child {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            min-width: 24px;
+            text-align: center;
         }
-        
+
+        .legend-item span:nth-child(2) {
+            flex: 1;
+        }
+
         .legend-item .time {
             color: #666;
-            font-size: 0.8rem;
-            margin-left: auto;
+            font-size: 0.85rem;
+            font-weight: 600;
+            background: white;
+            padding: 4px 10px;
+            border-radius: 6px;
         }
         
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-        }
-        
-        .card {
+        .locations-container {
             background: white;
             border-radius: 15px;
-            padding: 25px;
+            padding: 30px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
-        }
-        
-        .card h3 {
+
+        .locations-container h2 {
             color: #333;
-            margin-bottom: 15px;
-            font-size: 1.2rem;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
         }
-        
+
+        .location-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .location-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: background 0.2s ease;
+        }
+
+        .location-row:hover {
+            background: #e9ecef;
+        }
+
+        .location-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #333;
+            font-weight: 500;
+            font-size: 1.05rem;
+        }
+
         .subscribe-btn {
-            display: block;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             text-decoration: none;
-            padding: 12px 20px;
-            border-radius: 10px;
-            text-align: center;
+            padding: 10px 24px;
+            border-radius: 8px;
             font-weight: 600;
-            transition: opacity 0.3s ease;
-            margin-bottom: 10px;
+            font-size: 0.9rem;
+            transition: opacity 0.3s ease, transform 0.2s ease;
+            white-space: nowrap;
         }
-        
+
         .subscribe-btn:hover {
             opacity: 0.9;
+            transform: translateY(-2px);
         }
-        
-        .download-btn {
-            display: block;
-            background: #f8f9fa;
-            color: #333;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 10px;
-            text-align: center;
-            font-weight: 500;
-            transition: background 0.3s ease;
-            border: 1px solid #ddd;
-        }
-        
-        .download-btn:hover {
-            background: #e9ecef;
-        }
-        
+
         footer {
             text-align: center;
             color: white;
@@ -149,35 +181,15 @@
         footer a {
             color: white;
         }
-        
-        .info-box {
-            background: rgba(255,255,255,0.1);
-            border-radius: 10px;
-            padding: 15px 20px;
+
+        .disclaimer {
+            background: rgba(255,255,255,0.15);
+            border-left: 4px solid rgba(255,255,255,0.5);
+            padding: 12px 16px;
             margin-top: 20px;
-            color: white;
-            font-size: 0.9rem;
-        }
-        
-        .info-box h3 {
-            margin-bottom: 10px;
-        }
-        
-        .info-box ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        
-        .info-box li {
-            margin: 5px 0;
-            padding-left: 20px;
-            position: relative;
-        }
-        
-        .info-box li::before {
-            content: "✓";
-            position: absolute;
-            left: 0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            line-height: 1.5;
         }
     </style>
 </head>
@@ -186,14 +198,9 @@
         <header>
             <h1>🗓️ Harmonogram odbioru odpadów</h1>
             <p>Gmina Skawina - rok 2026</p>
-            
-            <div class="info-box">
-                <h3>Jak używać?</h3>
-                <ul>
-                    <li>Kliknij "Subskrybuj kalendarz" aby automatycznie dodać do kalendarza</li>
-                    <li>Otrzymasz przypomnienia dzień przed odbiorem</li>
-                </ul>
-            </div>
+            <p class="instructions">
+                Kliknij przycisk przy swojej lokalizacji, aby automatycznie dodać harmonogram do kalendarza. Otrzymasz przypomnienia dzień przed każdym odbiorem.
+            </p>
         </header>
         
         <div class="legend">
@@ -232,67 +239,94 @@
             </div>
         </div>
         
-        <div class="grid">
-            
-        <div class="card">
-            <h3>📍 Borek Szlachecki</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Borek_Szlachecki.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Facimiech</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Facimiech.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Goluchowice</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Goluchowice.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Grabie</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Grabie.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Jaśgpkowice</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Jaskowice.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Jurczyce</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Jurczyce.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Kopanka</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Kopanka.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Ochodza</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Ochodza.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
-        <div class="card">
-            <h3>📍 Polanka Hallera</h3>
-            <a href="webcal://adamszadkowski.github.io/odpady-skawina/Polanka_Hallera.ics" class="subscribe-btn">
-                📅 Subskrybuj kalendarz
-            </a>
-        </div>
+        <div class="locations-container">
+            <h2>📍 Wybierz swoją lokalizację</h2>
+            <div class="location-list">
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Borek Szlachecki</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Borek_Szlachecki.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Facimiech</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Facimiech.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Goluchowice</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Goluchowice.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Grabie</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Grabie.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Jaskowice</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Jaskowice.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Jurczyce</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Jurczyce.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Kopanka</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Kopanka.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Ochodza</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Ochodza.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+                <div class="location-row">
+                    <div class="location-name">
+                        <span>Polanka Hallera</span>
+                    </div>
+                    <a href="webcal://adamszadkowski.github.io/odpady-skawina/Polanka_Hallera.ics" class="subscribe-btn">
+                        📅 Subskrybuj
+                    </a>
+                </div>
+            </div>
         </div>
         
         <footer>
             <p>Źródło danych: Miejski Zakład Usługowy Sp. z o.o. w Skawinie</p>
             <p>Harmonogram obowiązuje od 1 stycznia 2026 r.</p>
+            <p style="margin-top: 15px; font-size: 0.8rem;">
+                Kontakt: tel. 12 276 58 33 | e-mail: bok@mzu.gminaskawina.pl
+            </p>
+            <div class="disclaimer">
+                ⚠️ To nie jest oficjalny kalendarz. Autor strony nie ponosi odpowiedzialności za błędne daty.
+                Zawsze sprawdzaj aktualne informacje na stronie gminy lub u operatora odbioru odpadów.
+            </div>
         </footer>
     </div>
 </body>
