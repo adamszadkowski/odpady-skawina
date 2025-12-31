@@ -1,0 +1,1352 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gmina Skawina//Harmonogram Odpadów 2026//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Odpady - Borek Szlachecki
+X-WR-CALDESC:Harmonogram odbioru odpadów komunalnych w sołectwie Borek Szlachecki, Gmina Skawina 2026
+X-WR-TIMEZONE:Europe/Warsaw
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:01c276f818ba5365@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260108T060000
+DTEND:20260108T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cf4732af8a56520f@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260121T060000
+DTEND:20260121T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0d1fdde940f74ffb@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260204T060000
+DTEND:20260204T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c09fd7a72feddc@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260218T060000
+DTEND:20260218T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f35ec0e169804909@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260304T060000
+DTEND:20260304T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07674fea8f221b34@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260318T060000
+DTEND:20260318T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb7ccd7629b2dece@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260401T060000
+DTEND:20260401T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:af85c05bafb1958e@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260415T060000
+DTEND:20260415T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06885b3a82571eca@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260429T060000
+DTEND:20260429T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:95dd24a99060a984@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260513T060000
+DTEND:20260513T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5fe1e75dd7322062@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260527T060000
+DTEND:20260527T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb8c5531d9ee708b@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260610T060000
+DTEND:20260610T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:61b221c194b8d296@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260624T060000
+DTEND:20260624T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b25eccf240ce938@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260708T060000
+DTEND:20260708T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1982c49c7d384426@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260722T060000
+DTEND:20260722T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:765ea35b7fcb6c80@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260805T060000
+DTEND:20260805T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0fb1eb5f74283c4b@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260819T060000
+DTEND:20260819T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:362a4722a85bce22@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260902T060000
+DTEND:20260902T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18c9da46eed290b2@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260916T060000
+DTEND:20260916T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:da58491de6a34668@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260930T060000
+DTEND:20260930T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a879970d0eb91d5b@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261014T060000
+DTEND:20261014T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2b77c7d0b8e68554@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261028T060000
+DTEND:20261028T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb9fac96f5e6aa0a@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261112T060000
+DTEND:20261112T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b5def52b8ced61c1@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261125T060000
+DTEND:20261125T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:35eec671cf102359@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261209T060000
+DTEND:20261209T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d87c74ac695318d2@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261223T060000
+DTEND:20261223T061500
+SUMMARY:🗑️ Odpady zmieszane i BIO
+DESCRIPTION:Odbiór odpadów - Odpady zmieszane i BIO\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zmieszane i BIO
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zmieszane i BIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7edb8d3a580ae0cf@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260107T061500
+DTEND:20260107T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a784bc0ca14adc49@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260120T061500
+DTEND:20260120T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:38ef4be502b76399@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260203T061500
+DTEND:20260203T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5d98e3c42b1d45a@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260217T061500
+DTEND:20260217T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f951b1be467635f@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260303T061500
+DTEND:20260303T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8c93c970fe18e155@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260317T061500
+DTEND:20260317T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b2417f3431765c31@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260331T061500
+DTEND:20260331T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:960895244e69fbbf@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260414T061500
+DTEND:20260414T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8769768e75ffb2e7@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260428T061500
+DTEND:20260428T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:846eec95f4b3ef5c@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260512T061500
+DTEND:20260512T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3dc187eec5bc1759@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260526T061500
+DTEND:20260526T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0ecad0539a03dbe4@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260609T061500
+DTEND:20260609T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5013d573407cda73@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260623T061500
+DTEND:20260623T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fe3ffa3db6e08d18@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260707T061500
+DTEND:20260707T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:450a8e548afd8a81@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260721T061500
+DTEND:20260721T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2cf9667947335128@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260804T061500
+DTEND:20260804T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ec0be4363af8e149@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260818T061500
+DTEND:20260818T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bdbf6a6f9dc8c71d@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260901T061500
+DTEND:20260901T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fbdc97b80e6fc4c3@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260915T061500
+DTEND:20260915T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6fb3aee4dedb4f94@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260929T061500
+DTEND:20260929T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7d5f33221a47e5bb@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261013T061500
+DTEND:20261013T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ea7b057f70d7238@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261027T061500
+DTEND:20261027T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:44021cbbac85429f@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261110T061500
+DTEND:20261110T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1649c072dccd215@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261124T061500
+DTEND:20261124T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:64982a76e04deb14@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261208T061500
+DTEND:20261208T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5fc3e71f7e5ff8b3@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261222T061500
+DTEND:20261222T063000
+SUMMARY:♻️ Surowce wtórne
+DESCRIPTION:Odbiór odpadów - Surowce wtórne\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Surowce wtórne
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Surowce wtórne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a02925db1d25fdcd@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260414T063000
+DTEND:20260414T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:026480b1a02182fb@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260428T063000
+DTEND:20260428T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a4eea23dcdd52fba@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260512T063000
+DTEND:20260512T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7f5bc67d3f8a4f84@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260526T063000
+DTEND:20260526T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:941787d577114729@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260609T063000
+DTEND:20260609T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9942804e4b2d846d@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260623T063000
+DTEND:20260623T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:020c60aa60c7f05a@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260707T063000
+DTEND:20260707T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cf3d41b79775ae5d@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260721T063000
+DTEND:20260721T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91f01297aecb5b18@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260804T063000
+DTEND:20260804T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6aeb82d4e1988ae1@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260818T063000
+DTEND:20260818T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f15e8bc66492651f@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260901T063000
+DTEND:20260901T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:65f5698287916199@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260915T063000
+DTEND:20260915T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5813f3a3dd266d28@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260929T063000
+DTEND:20260929T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:00ce4c6c6c8eafed@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261013T063000
+DTEND:20261013T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e55b056b6f0d70ac@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261027T063000
+DTEND:20261027T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b92369a4ce18ed7a@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261110T063000
+DTEND:20261110T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0fe850eb5572d0@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261124T063000
+DTEND:20261124T064500
+SUMMARY:🌿 Odpady zielone
+DESCRIPTION:Odbiór odpadów - Odpady zielone\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady zielone
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady zielone
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:14ead2e4ad18656b@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260218T064500
+DTEND:20260218T070000
+SUMMARY:👕 Odzież i tekstylia
+DESCRIPTION:Odbiór odpadów - Odzież i tekstylia\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odzież i tekstylia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odzież i tekstylia
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c73b4f200ab7dec@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260520T064500
+DTEND:20260520T070000
+SUMMARY:👕 Odzież i tekstylia
+DESCRIPTION:Odbiór odpadów - Odzież i tekstylia\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odzież i tekstylia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odzież i tekstylia
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a986d2746a70ca6@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260804T064500
+DTEND:20260804T070000
+SUMMARY:👕 Odzież i tekstylia
+DESCRIPTION:Odbiór odpadów - Odzież i tekstylia\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odzież i tekstylia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odzież i tekstylia
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:325c4427f68b53c0@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261114T064500
+DTEND:20261114T070000
+SUMMARY:👕 Odzież i tekstylia
+DESCRIPTION:Odbiór odpadów - Odzież i tekstylia\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odzież i tekstylia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odzież i tekstylia
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bcb85079b20bbdc2@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260304T070000
+DTEND:20260304T071500
+SUMMARY:🛋️ Odpady wielkogabarytowe
+DESCRIPTION:Odbiór odpadów - Odpady wielkogabarytowe\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady wielkogabarytowe
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady wielkogabarytowe
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8afb50aac481c77c@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260603T070000
+DTEND:20260603T071500
+SUMMARY:🛋️ Odpady wielkogabarytowe
+DESCRIPTION:Odbiór odpadów - Odpady wielkogabarytowe\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady wielkogabarytowe
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady wielkogabarytowe
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:969c76d31743b8c9@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260901T070000
+DTEND:20260901T071500
+SUMMARY:🛋️ Odpady wielkogabarytowe
+DESCRIPTION:Odbiór odpadów - Odpady wielkogabarytowe\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady wielkogabarytowe
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady wielkogabarytowe
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f39cdaf3ef7e8654@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20261215T070000
+DTEND:20261215T071500
+SUMMARY:🛋️ Odpady wielkogabarytowe
+DESCRIPTION:Odbiór odpadów - Odpady wielkogabarytowe\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Odpady wielkogabarytowe
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Odpady wielkogabarytowe
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4406d9c711bd6918@skawina.pl
+DTSTAMP:20251231T135804
+DTSTART:20260117T071500
+DTEND:20260117T073000
+SUMMARY:🎄 Choinki
+DESCRIPTION:Odbiór odpadów - Choinki\nSołectwo: Borek Szlachecki\nGmina Skawina
+LOCATION:Borek Szlachecki, Gmina Skawina
+CATEGORIES:Odpady,Choinki
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Jutro odbiór: Choinki
+END:VALARM
+END:VEVENT
+END:VCALENDAR

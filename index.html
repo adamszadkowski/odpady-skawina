@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonogram odbioru odpadów - Gmina Skawina 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .legend {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .legend h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+        
+        .legend-item span:first-child {
+            font-size: 1.2rem;
+        }
+        
+        .legend-item .time {
+            color: #666;
+            font-size: 0.8rem;
+            margin-left: auto;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+        }
+        
+        .card h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .subscribe-btn {
+            display: block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+            margin-bottom: 10px;
+        }
+        
+        .subscribe-btn:hover {
+            opacity: 0.9;
+        }
+        
+        .download-btn {
+            display: block;
+            background: #f8f9fa;
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+            transition: background 0.3s ease;
+            border: 1px solid #ddd;
+        }
+        
+        .download-btn:hover {
+            background: #e9ecef;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            opacity: 0.8;
+        }
+        
+        footer a {
+            color: white;
+        }
+        
+        .info-box {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-top: 20px;
+            color: white;
+            font-size: 0.9rem;
+        }
+        
+        .info-box h3 {
+            margin-bottom: 10px;
+        }
+        
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .info-box li {
+            margin: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .info-box li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗓️ Harmonogram odbioru odpadów</h1>
+            <p>Gmina Skawina - rok 2026</p>
+            
+            <div class="info-box">
+                <h3>Jak używać?</h3>
+                <ul>
+                    <li>Kliknij "Subskrybuj kalendarz" aby automatycznie dodać do kalendarza</li>
+                    <li>Lub pobierz plik ICS i zaimportuj ręcznie</li>
+                    <li>Otrzymasz przypomnienia dzień przed odbiorem</li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="legend">
+            <h2>📋 Legenda - typy odpadów i godziny</h2>
+            <div class="legend-grid">
+                <div class="legend-item">
+                    <span>🗑️</span>
+                    <span>Zmieszane i BIO</span>
+                    <span class="time">6:00</span>
+                </div>
+                <div class="legend-item">
+                    <span>♻️</span>
+                    <span>Surowce wtórne</span>
+                    <span class="time">6:15</span>
+                </div>
+                <div class="legend-item">
+                    <span>🌿</span>
+                    <span>Odpady zielone</span>
+                    <span class="time">6:30</span>
+                </div>
+                <div class="legend-item">
+                    <span>👕</span>
+                    <span>Odzież i tekstylia</span>
+                    <span class="time">6:45</span>
+                </div>
+                <div class="legend-item">
+                    <span>🛋️</span>
+                    <span>Wielkogabarytowe</span>
+                    <span class="time">7:00</span>
+                </div>
+                <div class="legend-item">
+                    <span>🎄</span>
+                    <span>Choinki</span>
+                    <span class="time">7:15</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid">
+            
+        <div class="card">
+            <h3>📍 Borek Szlachecki</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Borek_Szlachecki.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Borek_Szlachecki.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Facimiech</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Facimiech.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Facimiech.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Goluchowice</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Goluchowice.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Goluchowice.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Grabie</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Grabie.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Grabie.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Jaskowice</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Jaskowice.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Jaskowice.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Jurczyce</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Jurczyce.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Jurczyce.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Kopanka</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Kopanka.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Kopanka.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Ochodza</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Ochodza.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Ochodza.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        <div class="card">
+            <h3>📍 Polanka Hallera</h3>
+            <a href="webcal://adamszadkowski.github.io/odpady-skawina/ics/Polanka_Hallera.ics" class="subscribe-btn">
+                📅 Subskrybuj kalendarz
+            </a>
+            <a href="https://adamszadkowski.github.io/odpady-skawina/ics/Polanka_Hallera.ics" class="download-btn" download>
+                ⬇️ Pobierz plik ICS
+            </a>
+        </div>
+        </div>
+        
+        <footer>
+            <p>Źródło danych: Miejski Zakład Usługowy Sp. z o.o. w Skawinie</p>
+            <p>Harmonogram obowiązuje od 1 stycznia 2026 r.</p>
+            <p style="margin-top: 15px; font-size: 0.8rem;">
+                Kontakt: tel. 12 276 58 33 | e-mail: bok@mzu.gminaskawina.pl
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
